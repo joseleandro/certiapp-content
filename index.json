@@ -1,6 +1,6 @@
 {
  "index_version": 1,
- "generated_at": "2026-10-17T05:24:27Z",
+ "generated_at": "2026-10-17T22:30:30Z",
  "catalog": {
   "vendors": [
    {
@@ -51,8 +51,34 @@
       "status": "soon"
      }
     ]
+   },
+   {
+    "id": "certiapp",
+    "name": "CertiApp",
+    "certifications": [
+     {
+      "id": "demo",
+      "name": "Demonstração (teste)",
+      "exam_code": "DEMO-001",
+      "status": "available",
+      "pack_id": "certiapp-demo-teste"
+     }
+    ]
    }
   ]
  },
- "packs": []
+ "packs": [
+  {
+   "id": "certiapp-demo-teste",
+   "content_version": "0.1.0",
+   "schema_version": "1.0",
+   "path": "packs/certiapp-demo-teste.json",
+   "sha256": "613bfd8c447b5425f019389184ed41cc31c80c5ea4118de615583185f6bc8feb",
+   "size": 4166,
+   "title": "Certificação de Demonstração (teste)",
+   "vendor": "CertiApp",
+   "exam_code": "DEMO-001",
+   "questions": 3
+  }
+ ]
 }

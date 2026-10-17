@@ -1,0 +1,229 @@
+{
+ "schema_version": "1.0",
+ "pack": {
+  "id": "certiapp-demo-teste",
+  "content_version": "0.1.0",
+  "vendor": "CertiApp",
+  "exam_code": "DEMO-001",
+  "title": {
+   "pt": "Certificação de Demonstração (teste)"
+  },
+  "languages": [
+   "pt"
+  ],
+  "default_language": "pt",
+  "exam": {
+   "duration_minutes": 10,
+   "question_count": 6,
+   "passing_score_pct": null,
+   "simulation_ratio": 0.5,
+   "notes": "Pacote fictício para testar a publicação. Não é uma certificação real."
+  }
+ },
+ "domains": [
+  {
+   "id": "d1",
+   "weight_pct": 100,
+   "title": {
+    "pt": "Conceitos básicos de teste"
+   },
+   "study_units": [
+    {
+     "id": "d1-u01",
+     "title": {
+      "pt": "O que é este pacote"
+     },
+     "body_md": {
+      "pt": "Este pacote existe só para testar a **atualização de conteúdo** do CertiApp.\n\nSe você está lendo isto, o download pelo GitHub funcionou."
+     },
+     "references": []
+    }
+   ],
+   "questions": [
+    {
+     "id": "d1-q001",
+     "type": "single_choice",
+     "status": "draft",
+     "difficulty": 1,
+     "objective": "1.1",
+     "prompt": {
+      "pt": "Qual protocolo protege a comunicação entre o navegador e um site na web?"
+     },
+     "data": {
+      "choices": [
+       {
+        "id": "a",
+        "text": {
+         "pt": "HTTP sem criptografia"
+        }
+       },
+       {
+        "id": "b",
+        "text": {
+         "pt": "HTTPS"
+        }
+       },
+       {
+        "id": "c",
+        "text": {
+         "pt": "Telnet"
+        }
+       },
+       {
+        "id": "d",
+        "text": {
+         "pt": "FTP sem criptografia"
+        }
+       }
+      ],
+      "correct": [
+       "b"
+      ]
+     },
+     "explanation": {
+      "summary": {
+       "pt": "HTTPS usa TLS para criptografar o tráfego."
+      },
+      "per_choice": {
+       "a": {
+        "pt": "Incorreta. HTTP sem criptografia"
+       },
+       "b": {
+        "pt": "Correta. HTTPS"
+       },
+       "c": {
+        "pt": "Incorreta. Telnet"
+       },
+       "d": {
+        "pt": "Incorreta. FTP sem criptografia"
+       }
+      }
+     },
+     "references": []
+    },
+    {
+     "id": "d1-q002",
+     "type": "single_choice",
+     "status": "draft",
+     "difficulty": 1,
+     "objective": "1.1",
+     "prompt": {
+      "pt": "Quantos bits tem um endereço IPv4?"
+     },
+     "data": {
+      "choices": [
+       {
+        "id": "a",
+        "text": {
+         "pt": "16"
+        }
+       },
+       {
+        "id": "b",
+        "text": {
+         "pt": "32"
+        }
+       },
+       {
+        "id": "c",
+        "text": {
+         "pt": "64"
+        }
+       },
+       {
+        "id": "d",
+        "text": {
+         "pt": "128"
+        }
+       }
+      ],
+      "correct": [
+       "b"
+      ]
+     },
+     "explanation": {
+      "summary": {
+       "pt": "Um endereço IPv4 tem 32 bits."
+      },
+      "per_choice": {
+       "a": {
+        "pt": "Incorreta. 16"
+       },
+       "b": {
+        "pt": "Correta. 32"
+       },
+       "c": {
+        "pt": "Incorreta. 64"
+       },
+       "d": {
+        "pt": "Incorreta. 128"
+       }
+      }
+     },
+     "references": []
+    },
+    {
+     "id": "d1-q003",
+     "type": "single_choice",
+     "status": "draft",
+     "difficulty": 1,
+     "objective": "1.1",
+     "prompt": {
+      "pt": "Qual unidade equivale a 8 bits?"
+     },
+     "data": {
+      "choices": [
+       {
+        "id": "a",
+        "text": {
+         "pt": "Byte"
+        }
+       },
+       {
+        "id": "b",
+        "text": {
+         "pt": "Nibble"
+        }
+       },
+       {
+        "id": "c",
+        "text": {
+         "pt": "Kilobit"
+        }
+       },
+       {
+        "id": "d",
+        "text": {
+         "pt": "Palavra"
+        }
+       }
+      ],
+      "correct": [
+       "a"
+      ]
+     },
+     "explanation": {
+      "summary": {
+       "pt": "Um byte tem 8 bits."
+      },
+      "per_choice": {
+       "a": {
+        "pt": "Correta. Byte"
+       },
+       "b": {
+        "pt": "Incorreta. Nibble"
+       },
+       "c": {
+        "pt": "Incorreta. Kilobit"
+       },
+       "d": {
+        "pt": "Incorreta. Palavra"
+       }
+      }
+     },
+     "references": []
+    }
+   ]
+  }
+ ]
+}
