@@ -1,0 +1,58 @@
+{
+ "index_version": 1,
+ "generated_at": "2026-10-17T05:24:27Z",
+ "catalog": {
+  "vendors": [
+   {
+    "id": "cisco",
+    "name": "Cisco",
+    "certifications": [
+     {
+      "id": "ccna",
+      "name": "CCNA",
+      "exam_code": "200-301",
+      "status": "soon",
+      "pack_id": "cisco-ccna-200-301"
+     }
+    ]
+   },
+   {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "certifications": [
+     {
+      "id": "az-900",
+      "name": "Azure Fundamentals",
+      "exam_code": "AZ-900",
+      "status": "soon"
+     }
+    ]
+   },
+   {
+    "id": "aws",
+    "name": "AWS",
+    "certifications": [
+     {
+      "id": "clf-c02",
+      "name": "Cloud Practitioner",
+      "exam_code": "CLF-C02",
+      "status": "soon"
+     }
+    ]
+   },
+   {
+    "id": "lpi",
+    "name": "LPI",
+    "certifications": [
+     {
+      "id": "lpic-1",
+      "name": "LPIC-1",
+      "exam_code": "101/102",
+      "status": "soon"
+     }
+    ]
+   }
+  ]
+ },
+ "packs": []
+}
