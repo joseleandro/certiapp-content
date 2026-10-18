@@ -1,6 +1,6 @@
 {
  "index_version": 1,
- "generated_at": "2026-10-17T22:30:30Z",
+ "generated_at": "2026-10-18T22:33:45Z",
  "catalog": {
   "vendors": [
    {
@@ -53,21 +53,33 @@
     ]
    },
    {
-    "id": "certiapp",
-    "name": "CertiApp",
+    "id": "3cx",
+    "name": "3CX",
     "certifications": [
      {
-      "id": "demo",
-      "name": "Demonstração (teste)",
-      "exam_code": "DEMO-001",
+      "id": "basic",
+      "name": "Basic",
+      "exam_code": "Basic",
       "status": "available",
-      "pack_id": "certiapp-demo-teste"
+      "pack_id": "3cx-basic"
      }
     ]
    }
   ]
  },
  "packs": [
+  {
+   "id": "3cx-basic",
+   "content_version": "0.1.1",
+   "schema_version": "1.0",
+   "path": "packs/3cx-basic.json",
+   "sha256": "af3f0515ea98508e1f082afb266f863f7755cafc336e333d6d3fc39a9dd136c6",
+   "size": 13259,
+   "title": "3CX Basic Certification",
+   "vendor": "3CX",
+   "exam_code": "Basic",
+   "questions": 4
+  },
   {
    "id": "certiapp-demo-teste",
    "content_version": "0.1.0",

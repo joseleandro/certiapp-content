@@ -1,0 +1,351 @@
+{
+ "schema_version": "1.0",
+ "pack": {
+  "id": "3cx-basic",
+  "content_version": "0.1.1",
+  "vendor": "3CX",
+  "exam_code": "Basic",
+  "title": {
+   "pt": "3CX Basic Certification"
+  },
+  "languages": [
+   "pt"
+  ],
+  "default_language": "pt",
+  "exam": {
+   "duration_minutes": 60,
+   "question_count": 20,
+   "passing_score_pct": 80,
+   "simulation_ratio": 0.2,
+   "notes": ""
+  }
+ },
+ "domains": [
+  {
+   "id": "d1",
+   "weight_pct": 50,
+   "title": {
+    "pt": "Hospedado pela 3CX ou 3CX SMB"
+   },
+   "study_units": [
+    {
+     "id": "d1-u01",
+     "title": {
+      "pt": "Hospedado pela 3CX ou 3CX SMB"
+     },
+     "body_md": {
+      "pt": "Este capítulo ajudará você a entender melhor a solução mais adequada às suas necessidades — incluindo vantagens e limitações —, bem como a instalá-la e configurá-la."
+     },
+     "references": [
+      {
+       "title": "Fundamentos Básicos do 3CX",
+       "url": "https://www.3cx.com.br/3cxacademy/basico/#:~:text=Cap%C3%ADtulo%201%3A%20Hospedado%20pela%203CX%20ou%203CX%20SMB%20FREE%20%E2%80%93%20Small%20Business"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "id": "d2-q001",
+     "type": "single_choice",
+     "status": "draft",
+     "difficulty": 1,
+     "objective": "",
+     "prompt": {
+      "pt": "Qual das opções abaixo descreve corretamente uma das principais vantagens do uso do Hosted by 3CX (hospedado pela própria 3CX) em comparação com uma instalação local (On-Premises)?"
+     },
+     "data": {
+      "choices": [
+       {
+        "id": "a",
+        "text": {
+         "pt": "O Usuário ganha acesso root completo ao sistema operacional Linux do servidor para modificar pacotes de rede avançados."
+        }
+       },
+       {
+        "id": "b",
+        "text": {
+         "pt": "A 3CX gerencia automaticamente atualizações diárias do sistema, backups diários e monitoramento de segurança da instância."
+        }
+       },
+       {
+        "id": "c",
+        "text": {
+         "pt": "É a única modalidade que permite conectar troncos SIP de operadoras locais do Brasil."
+        }
+       },
+       {
+        "id": "d",
+        "text": {
+         "pt": "Não há custos de licença, sendo totalmente gratuito independentemente do número de chamadas simultâneas."
+        }
+       }
+      ],
+      "correct": [
+       "b"
+      ]
+     },
+     "explanation": {
+      "summary": {
+       "pt": "A principal vantagem desta modalidade é a automação da manutenção técnica. A 3CX cuida diretamente dos backups diários, das atualizações de segurança e da estabilidade do sistema. Por ser um ambiente totalmente gerenciado pela fabricante, o usuário abre mão do acesso root (nível de sistema operacional Linux) para garantir que a plataforma permaneça estável e segura, sem riscos de modificações indevidas."
+      },
+      "per_choice": {
+       "a": {
+        "pt": "No Hosted by 3CX, você não tem acesso root ao sistema operacional, pois a própria 3CX gerencia, protege e mantém a infraestrutura"
+       },
+       "b": {
+        "pt": "A 3CX cuida das atualizações, backups diários e do monitoramento de segurança da instância."
+       },
+       "c": {
+        "pt": "Qualquer modalidade de hospedagem (nuvem própria, local ou gerenciada) permite conectar troncos SIP de operadoras brasileiras ou internacionais."
+       },
+       "d": {
+        "pt": "O licenciamento do 3CX depende da edição e do número de chamadas simultâneas, não sendo totalmente gratuito de forma irrestrita."
+       }
+      }
+     },
+     "references": [],
+     "origin": {
+      "declared_original": true,
+      "declared_at": "2026-10-18T15:36:03.120Z"
+     }
+    },
+    {
+     "id": "d2-q002",
+     "type": "single_choice",
+     "status": "draft",
+     "difficulty": 1,
+     "objective": "",
+     "prompt": {
+      "pt": "Para realizar a instalação do 3CX em um ambiente próprio (On-Premises ou nuvem privada) utilizando uma ISO fornecida ou Linux Debian, qual é o sistema operacional base oficialmente suportado e recomendado pela 3CX?"
+     },
+     "data": {
+      "choices": [
+       {
+        "id": "a",
+        "text": {
+         "pt": "Microsoft Windows Server 2022"
+        }
+       },
+       {
+        "id": "b",
+        "text": {
+         "pt": "Ubuntu Server LTS (versão mais recente)"
+        }
+       },
+       {
+        "id": "c",
+        "text": {
+         "pt": "Debian GNU/Linux (versão suportada específica, atualmente Debian 12)"
+        }
+       },
+       {
+        "id": "d",
+        "text": {
+         "pt": "Red Hat Enterprise Linux (RHEL)"
+        }
+       }
+      ],
+      "correct": [
+       "c"
+      ]
+     },
+     "explanation": {
+      "summary": {
+       "pt": "Versões antigas do 3CX permitiam instalação em servidores Windows, mas essa prática foi descontinuada para novos ambientes corporativos. Atualmente, o 3CX roda de forma nativa e otimizada exclusivamente sobre o Debian GNU/Linux. Isso garante um ambiente estável, seguro e padronizado para o funcionamento dos serviços de telefonia IP."
+      },
+      "per_choice": {
+       "a": {
+        "pt": "Instalações nativas em Windows Server para novas instâncias foram descontinuadas pelo 3CX há algumas versões."
+       },
+       "b": {
+        "pt": "Embora seja uma distribuição popular, o Ubuntu não é o sistema operacional oficial suportado pelo instalador do 3CX"
+       },
+       "c": {
+        "pt": "O Debian é a distribuição Linux oficial e exigida para instalações dedicadas do PABX."
+       },
+       "d": {
+        "pt": "O 3CX não utiliza pacotes ou suporte nativo para o Red Hat."
+       }
+      }
+     },
+     "references": [],
+     "origin": {
+      "declared_original": true,
+      "declared_at": "2026-10-18T15:38:11.796Z"
+     }
+    }
+   ]
+  },
+  {
+   "id": "d2",
+   "weight_pct": 50,
+   "title": {
+    "pt": "Configure Sua Equipe"
+   },
+   "study_units": [
+    {
+     "id": "d2-u01",
+     "title": {
+      "pt": "Configure Sua Equipe"
+     },
+     "body_md": {
+      "pt": "Nesta seção, você aprendeu como adicionar Usuários e Departamentos, atribuir Usuários a Departamentos e atribuir funções a eles.\n\n"
+     },
+     "references": [
+      {
+       "title": "Configure sua Equipe",
+       "url": "https://www.3cx.com.br/3cxacademy/basico/#:~:text=Cap%C3%ADtulo%202%3A%20Configure%20Sua%20Equipe"
+      },
+      {
+       "title": "Criação de Usuários/Ramais",
+       "url": "https://www.3cx.com.br/docs/manual/criacao-ramais/"
+      },
+      {
+       "title": "URA / Recepcionista Digital",
+       "url": "https://www.3cx.com.br/docs/manual/ivr/"
+      },
+      {
+       "title": "Configurando o OpenAI para Agentes de IA 3CX",
+       "url": "https://www.3cx.com.br/docs/configuracao-agente-ia/"
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "id": "d2-q003",
+     "type": "single_choice",
+     "status": "draft",
+     "difficulty": 1,
+     "objective": "",
+     "prompt": {
+      "pt": "Quando um novo usuário é criado no 3CX, ele recebe uma extensão e um perfil de acesso (função ou role). Qual é a principal diferença de permissão entre as funções padrão User (Usuário) e Administrator (Administrador) no PABX?"
+     },
+     "data": {
+      "choices": [
+       {
+        "id": "a",
+        "text": {
+         "pt": "Apenas o Administrador pode fazer e receber chamadas externas, enquanto o Usuário comum só consegue falar com ramais internos."
+        }
+       },
+       {
+        "id": "b",
+        "text": {
+         "pt": "O Administrador possui acesso total para configurar o PABX, troncos SIP, filas e criar novos usuários, enquanto o Usuário comum gerencia apenas as suas próprias configurações e status."
+        }
+       },
+       {
+        "id": "c",
+        "text": {
+         "pt": "O Usuário comum tem direito a utilizar o aplicativo móvel, ferramenta que é bloqueada por segurança para todos os Administradores."
+        }
+       },
+       {
+        "id": "d",
+        "text": {
+         "pt": "A função de Administrador exige uma licença Enterprise paga separadamente, ao contrário da função de Usuário que está disponível na versão Free."
+        }
+       }
+      ],
+      "correct": [
+       "b"
+      ]
+     },
+     "explanation": {
+      "summary": {
+       "pt": "O 3CX separa claramente as responsabilidades de uso. A função de Administrator concede acesso total à console de gerenciamento, permitindo criar ramais, configurar troncos SIP, gerenciar filas de atendimento e alterar parâmetros globais da empresa. Em contrapartida, a função de User (Usuário comum) restringe o acesso apenas ao Web Client pessoal, onde cada colaborador gerencia seu próprio status, histórico de chamadas e preferências individuais de áudio, sem poder modificar a estrutura do PABX."
+      },
+      "per_choice": {
+       "a": {
+        "pt": "anto administradores quanto usuários comuns podem fazer e receber chamadas externas. O acesso a chamadas externas depende das regras de permissão de saída configuradas para o ramal, e não do cargo de administrador."
+       },
+       "b": {
+        "pt": "A função de Administrator dá acesso completo à console de gerenciamento (Management Console) para alterar configurações globais, troncos, filas e usuários. Já o User comum acessa apenas o seu Web Client para gerenciar seu próprio status, histórico de chamadas e preferências pessoais."
+       },
+       "c": {
+        "pt": "Administradores também podem e devem utilizar aplicativos móveis e web para suas comunicações diárias; não há nenhum bloqueio de segurança que impeça isso."
+       },
+       "d": {
+        "pt": "O sistema de funções (roles) e permissões de usuários faz parte da estrutura nativa do 3CX e não exige a compra de uma licença separada."
+       }
+      }
+     },
+     "references": [],
+     "origin": {
+      "declared_original": true,
+      "declared_at": "2026-10-18T20:11:27.538Z"
+     }
+    },
+    {
+     "id": "d2-q004",
+     "type": "single_choice",
+     "status": "draft",
+     "difficulty": 1,
+     "objective": "",
+     "prompt": {
+      "pt": "No 3CX, as Regras de Encaminhamento Baseadas no Status (Status-based Forwarding) permitem definir como as chamadas devem ser tratadas dependendo do perfil do usuário (por exemplo, Disponível, Ausente, Não Perturbe). Se um ramal estiver configurado com o status Ausente (Away), qual é o comportamento padrão do 3CX para chamadas destinadas a essa extensão?"
+     },
+     "data": {
+      "choices": [
+       {
+        "id": "a",
+        "text": {
+         "pt": "A chamada é imediatamente encerrada com sinal de ocupado, impedindo que qualquer mensagem seja deixada."
+        }
+       },
+       {
+        "id": "b",
+        "text": {
+         "pt": "O 3CX bloqueia o ramal por motivos de segurança até que o usuário retorne e altere manualmente o status para Disponível."
+        }
+       },
+       {
+        "id": "c",
+        "text": {
+         "pt": "A chamada é transferida automaticamente para o número de celular pessoal do funcionário via operadora celular, sem passar pelo aplicativo do 3CX."
+        }
+       },
+       {
+        "id": "d",
+        "text": {
+         "pt": "O PABX segue as regras configuradas para o status Ausente, que geralmente incluem encaminhar a chamada para o correio de voz (Voicemail) ou para outro ramal/colega após um determinado tempo de toque."
+        }
+       }
+      ],
+      "correct": [
+       "d"
+      ]
+     },
+     "explanation": {
+      "summary": {
+       "pt": "Cada status no 3CX possui regras customizáveis de redirecionamento. Quando um usuário define seu perfil como Ausente (Away), o PABX não encerra a chamada abruptamente nem bloqueia o ramal; em vez disso, ele aplica a diretriz configurada para aquela situação. Geralmente, o sistema aguarda um tempo determinado de toques antes de enviar a chamada para o correio de voz (Voicemail) ou redirecioná-la para um colega do mesmo departamento."
+      },
+      "per_choice": {
+       "a": {
+        "pt": "O 3CX não encerra chamadas de forma abrupta por padrão; o objetivo do PABX é garantir que o cliente ou colega receba um tratamento adequado (como uma mensagem de voz ou redirecionamento)."
+       },
+       "b": {
+        "pt": "Mudar o status para \"Ausente\" é uma operação comum do dia a dia e não tem relação alguma com bloqueio ou segurança do ramal."
+       },
+       "c": {
+        "pt": "Embora o 3CX permita o encaminhamento para números externos, isso só acontece se o próprio usuário configurar essa diretriz específica em seu perfil. Não é um comportamento padrão automático do status Ausente."
+       },
+       "d": {
+        "pt": "O 3CX utiliza perfis de status (como Disponível, Ausente, Não Perturbe) para aplicar regras customizáveis de redirecionamento, definindo o tempo de toque antes de enviar a chamada para o correio de voz ou para outro ramal."
+       }
+      }
+     },
+     "references": [],
+     "origin": {
+      "declared_original": true,
+      "declared_at": "2026-10-18T22:40:00.000Z",
+      "note": "Declaração registrada pelo Claude a pedido expresso do usuário, que estava sem acesso ao PC (2026-10-18)."
+     }
+    }
+   ]
+  }
+ ],
+ "retired_ids": []
+}
