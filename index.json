@@ -1,6 +1,6 @@
 {
  "index_version": 1,
- "generated_at": "2026-10-18T22:33:45Z",
+ "generated_at": "2026-10-20T01:45:55Z",
  "catalog": {
   "vendors": [
    {
@@ -91,6 +91,22 @@
    "vendor": "CertiApp",
    "exam_code": "DEMO-001",
    "questions": 3
+  }
+ ],
+ "courses": [
+  {
+   "id": "historia-da-computacao",
+   "content_version": "0.1.0",
+   "schema_version": "1.0",
+   "path": "courses/historia-da-computacao/course.json",
+   "sha256": "4eb102f3e45cdf69eac40b6bb146434ba24a2f37f0819d4648944f3e53a0fea1",
+   "size": 6963,
+   "title": "A História da Computação",
+   "workload_hours": 2,
+   "level": "iniciante",
+   "category": "Fundamentos",
+   "lessons": 4,
+   "assets_size": 1446577
   }
  ]
 }

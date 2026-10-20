@@ -1,0 +1,282 @@
+{
+ "schema_version": "1.0",
+ "course": {
+  "id": "historia-da-computacao",
+  "content_version": "0.1.0",
+  "title": {
+   "pt": "A História da Computação"
+  },
+  "summary": {
+   "pt": "Da contagem mecânica à era dos microprocessadores e redes globais."
+  },
+  "description": {
+   "pt": "Uma jornada pela evolução do processamento de dados: da era pré-eletrônica aos primeiros computadores, dos semicondutores aos computadores pessoais e às redes globais."
+  },
+  "category": "Fundamentos",
+  "level": "iniciante",
+  "workload_hours": 2,
+  "languages": [
+   "pt"
+  ],
+  "default_language": "pt",
+  "completion": {
+   "min_active_pct": 0
+  },
+  "certificate": {
+   "issuer_name": "Plataforma de Ensino",
+   "issuer_title": "Coordenação Acadêmica"
+  }
+ },
+ "lessons": [
+  {
+   "id": "bloco-1",
+   "title": {
+    "pt": "Introdução e Bloco 1: Era pré-eletrônica"
+   },
+   "kind": "slides",
+   "minutes": 30,
+   "slides": [
+    {
+     "file": "slides/bloco-1/001.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "2e7834a4fe3ffb9b178d23beafd323bcb0684e940cb02e6d0509f49e0cb5f908",
+     "size": 21943
+    },
+    {
+     "file": "slides/bloco-1/002.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "0c5097aca098bbb3884e6f42ad268a2812ff7541d11150b9bfd62179284739a5",
+     "size": 66839
+    },
+    {
+     "file": "slides/bloco-1/003.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "845d0e9d44f9554be7acf2c57c951697cbbc884996baa4e757ed290fd84db323",
+     "size": 37805
+    },
+    {
+     "file": "slides/bloco-1/004.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "4bad87732506454d499b7df7db3fbd8e63f1d9f09853ab41a475671f4c76dbe1",
+     "size": 32229
+    },
+    {
+     "file": "slides/bloco-1/005.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "54416ee0510b3cb35859a83fbb3e3bc530945e25c5b1951f4c0bd4d44eec36de",
+     "size": 31819
+    },
+    {
+     "file": "slides/bloco-1/006.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "a6ff12efd0f35a32b8b09eac47387b1ab50ab5544502026c4c221a9a07a352a8",
+     "size": 37904
+    },
+    {
+     "file": "slides/bloco-1/007.jpg",
+     "w": 1280,
+     "h": 720,
+     "sha256": "71dc6e95a2d713f0c69a651cfc2bd3a98a34c6403a5b07c262f6b44b8077afc6",
+     "size": 68577
+    },
+    {
+     "file": "slides/bloco-1/008.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "23a20cd111e69abf841812896cd9fe78daac566978c7623bc92668b5e010b074",
+     "size": 42290
+    },
+    {
+     "file": "slides/bloco-1/009.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "6d4460ae610f6d94cf4774fabdd474d130ebadb3d992edc21b447084f2e1008d",
+     "size": 30914
+    },
+    {
+     "file": "slides/bloco-1/010.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "af5c70203eac022ac5adba1e7b366ae81c524bab0ce15b99c844a4c0a6d2730a",
+     "size": 133357
+    }
+   ]
+  },
+  {
+   "id": "bloco-2",
+   "title": {
+    "pt": "Bloco 2: Primeiros computadores"
+   },
+   "kind": "slides",
+   "minutes": 30,
+   "slides": [
+    {
+     "file": "slides/bloco-2/001.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "1f6aa27e728f343028fccb7e199bbca15414316b9ec3ebbc86a08f7d68ee72bb",
+     "size": 36055
+    },
+    {
+     "file": "slides/bloco-2/002.jpg",
+     "w": 1280,
+     "h": 720,
+     "sha256": "039e2e6a04e25673a923d9e469682e23fff866f6f978d2d1898dc75577d4de3c",
+     "size": 79929
+    },
+    {
+     "file": "slides/bloco-2/003.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "5925813edaef217873d62da315dc6cca52a0411533f16b3bb4208e4962eea2b2",
+     "size": 32884
+    },
+    {
+     "file": "slides/bloco-2/004.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "a5f869359bb14b916a2ec080b44612f186c83bd709a9b2ce755cd892727fab79",
+     "size": 32292
+    },
+    {
+     "file": "slides/bloco-2/005.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "29c103725062b488af4b4b429872a64228a73f55b9d3ea4820c4cf00f1ee4ce3",
+     "size": 22960
+    },
+    {
+     "file": "slides/bloco-2/006.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "7dd456ee2048d31c04dbaccebc0fc2769f20fd4340792ea0af3e885a4dc59eac",
+     "size": 33692
+    },
+    {
+     "file": "slides/bloco-2/007.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "93d9dbb8f17a2831497e47951d909e94cd2cf502f0eff3f1602a335b0736804c",
+     "size": 31930
+    }
+   ]
+  },
+  {
+   "id": "bloco-3",
+   "title": {
+    "pt": "Bloco 3: Semicondutores e computadores pessoais"
+   },
+   "kind": "slides",
+   "minutes": 30,
+   "slides": [
+    {
+     "file": "slides/bloco-3/001.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "331e75f859d6b3ba09f25b8a618c6019385aa709a3a4dff9eb5eb0ba9a4c3ac2",
+     "size": 34231
+    },
+    {
+     "file": "slides/bloco-3/002.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "8f8b24b015e91a4943d9586f0344f59b92d4131a4e87b1891f9d0687a9437dec",
+     "size": 35893
+    },
+    {
+     "file": "slides/bloco-3/003.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "0572b5cdd6af494c0974a303c43c912bbb7097a6940cbe3be57ec1b2099ef123",
+     "size": 45102
+    },
+    {
+     "file": "slides/bloco-3/004.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "b41f59d88078f2336d3b00e9e2eef999017f2cc12b5c073a951c5b677af7eea2",
+     "size": 31413
+    },
+    {
+     "file": "slides/bloco-3/005.jpg",
+     "w": 1280,
+     "h": 720,
+     "sha256": "567140ec652ba582acc36ca00611b143aa76f93e818c0ad57bddda57477596fa",
+     "size": 81526
+    },
+    {
+     "file": "slides/bloco-3/006.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "65f2febc5c78c196cba23987312b640ee66d485b3a949e1a7a5211df8ae02bb1",
+     "size": 32157
+    },
+    {
+     "file": "slides/bloco-3/007.jpg",
+     "w": 1280,
+     "h": 720,
+     "sha256": "47cc5ca076c1736ff5aedc671a96e845f49f16448b1f2bb5c660dd7051b61036",
+     "size": 71024
+    }
+   ]
+  },
+  {
+   "id": "bloco-4",
+   "title": {
+    "pt": "Bloco 4: Redes e fixação"
+   },
+   "kind": "slides",
+   "minutes": 30,
+   "slides": [
+    {
+     "file": "slides/bloco-4/001.jpg",
+     "w": 1280,
+     "h": 720,
+     "sha256": "c28b70419d4794d6293e24414fda875e1229b31a45d966e77db6a9e522557377",
+     "size": 74930
+    },
+    {
+     "file": "slides/bloco-4/002.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "e1474b2c6860c9a2e84be9cfddf940449c2d709f4cf6289d3e1f9b3d1351d605",
+     "size": 46436
+    },
+    {
+     "file": "slides/bloco-4/003.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "2eae0fdc05be6272a2f6b0795260923c6a4280f6720021eb97cf31725513a8e7",
+     "size": 38257
+    },
+    {
+     "file": "slides/bloco-4/004.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "eee1a40549159bf3013ad6e9ffc58eca6bba27e3fe80e0c6f9d62c0ce3aac2be",
+     "size": 58044
+    },
+    {
+     "file": "slides/bloco-4/005.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "94c10a0a72836e3a88f2dcb91aa28e7456cba3bef6a2c52df62d939115249bed",
+     "size": 103479
+    },
+    {
+     "file": "slides/bloco-4/006.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "0d949bd1b8f00b7fd9d231a2ee19ae9b8d1a1da5fa92cce72ea2e2ef6483595d",
+     "size": 20666
+    }
+   ]
+  }
+ ]
+}
