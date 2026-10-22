@@ -2,15 +2,15 @@
  "schema_version": "1.0",
  "course": {
   "id": "fundamentos-de-hardware-so",
-  "content_version": "0.2.0",
+  "content_version": "0.2.1",
   "title": {
    "pt": "Fundamentos de Hardware & SO"
   },
   "summary": {
-   "pt": ""
+   "pt": "Um curso introdutório de 15 horas que ensina, do zero, como o computador funciona por dentro e como usar, manter e diagnosticar os sistemas Windows e Linux."
   },
   "description": {
-   "pt": ""
+   "pt": "Quer começar na área de TI, mas não sabe por onde? Este curso é o primeiro passo. Em 15 horas, você parte do zero e entende como um computador funciona, desde os bits até o sistema operacional. Ao final, vai saber montar, configurar e resolver problemas reais de hardware e software."
   },
   "category": "",
   "level": "iniciante",
