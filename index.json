@@ -1,6 +1,6 @@
 {
  "index_version": 1,
- "generated_at": "2026-10-20T01:45:55Z",
+ "generated_at": "2026-10-22T17:59:25Z",
  "catalog": {
   "vendors": [
    {
@@ -94,6 +94,20 @@
   }
  ],
  "courses": [
+  {
+   "id": "fundamentos-de-hardware-so",
+   "content_version": "0.2.0",
+   "schema_version": "1.0",
+   "path": "courses/fundamentos-de-hardware-so/course.json",
+   "sha256": "3fb0cb2130285da633ed85e254515c24a0eb155b20e02f0a649c6a11e1747fd3",
+   "size": 26321,
+   "title": "Fundamentos de Hardware & SO",
+   "workload_hours": 15,
+   "level": "iniciante",
+   "category": "",
+   "lessons": 7,
+   "assets_size": 3741412
+  },
   {
    "id": "historia-da-computacao",
    "content_version": "0.1.0",

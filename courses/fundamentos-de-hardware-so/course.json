@@ -1,0 +1,1206 @@
+{
+ "schema_version": "1.0",
+ "course": {
+  "id": "fundamentos-de-hardware-so",
+  "content_version": "0.2.0",
+  "title": {
+   "pt": "Fundamentos de Hardware & SO"
+  },
+  "summary": {
+   "pt": ""
+  },
+  "description": {
+   "pt": ""
+  },
+  "category": "",
+  "level": "iniciante",
+  "workload_hours": 15,
+  "languages": [
+   "pt"
+  ],
+  "default_language": "pt",
+  "completion": {
+   "min_active_pct": 0
+  },
+  "certificate": {
+   "issuer_name": "Plataforma de Ensino",
+   "issuer_title": "Coordenação Acadêmica"
+  }
+ },
+ "lessons": [
+  {
+   "id": "aula-01",
+   "title": {
+    "pt": "Aula 1"
+   },
+   "kind": "slides",
+   "minutes": 128,
+   "slides": [
+    {
+     "file": "slides/aula-01/001.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "ee3a7cdce36eadb78625e484a13dc4bf520c34e2b84dcf97125fe6bde34b7cc1",
+     "size": 28714
+    },
+    {
+     "file": "slides/aula-01/002.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "f319e623ba59cd63759e1308a115b2e1b1da66a4100e1503e8db870aa6e74aa3",
+     "size": 56601
+    },
+    {
+     "file": "slides/aula-01/003.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "eff4321456aafa3e747b03ca683dce18918dcc3af8b0e7dc49401e59108c2611",
+     "size": 44358
+    },
+    {
+     "file": "slides/aula-01/004.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "d9e8d107105734ec2829052b92518e1d4f11d9834ac72126590c52ac947fbbfe",
+     "size": 36654
+    },
+    {
+     "file": "slides/aula-01/005.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "898975c6216c3ae390e84e7fe73325966f77eca522fd5cabdf9c951c4a2855a5",
+     "size": 40248
+    },
+    {
+     "file": "slides/aula-01/006.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "608e38183bedc0339ddfbb473df13bda352d15d741969a55497ce4b2660e170e",
+     "size": 36727
+    },
+    {
+     "file": "slides/aula-01/007.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "81312fc00ffd51c67e2506d1b30cc3cb53af85b9ea1476fe6129ec8557c02172",
+     "size": 33689
+    },
+    {
+     "file": "slides/aula-01/008.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "1d5faade6a7c3cee2d2976d9ff8d840f543b68e93e79e5b8a75cb993aa929034",
+     "size": 36217
+    },
+    {
+     "file": "slides/aula-01/009.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "6961c55dd46047209c8bc2b703f7e6c1b272dc1d1c5a1aeb6686398c39714d8e",
+     "size": 36918
+    },
+    {
+     "file": "slides/aula-01/010.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "54ce32caf785cfeeff5f0ba072828e173584ac0ed31e43d00c0f010c0c04e2dc",
+     "size": 38053
+    },
+    {
+     "file": "slides/aula-01/014.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "a318c914fca6458444c9dc8a9521de9ea295fb51f6d4fac4444e76e1f0db9d45",
+     "size": 38048
+    }
+   ]
+  },
+  {
+   "id": "aula-02",
+   "title": {
+    "pt": "Aula 2"
+   },
+   "kind": "slides",
+   "minutes": 128,
+   "slides": [
+    {
+     "file": "slides/aula-02/001.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "ac2a7af541469f6df73cc2e8c856ef53d0a4b49e18c488280ffa87a633dcb85e",
+     "size": 35768
+    },
+    {
+     "file": "slides/aula-02/002.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "5d5fcc1685e972ce6650a27af5015236b7cb6c3a1f155e41401c99525c82524d",
+     "size": 55045
+    },
+    {
+     "file": "slides/aula-02/003.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "2520fa4b194e1c012458f0b1c959308f2727b315ef9d4f80628d1fe3e120ffcd",
+     "size": 30895
+    },
+    {
+     "file": "slides/aula-02/004.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "fa0f27595ce83f5e968208762620f6b4bb1a527d89437c977d5e118e49b4cb13",
+     "size": 38531
+    },
+    {
+     "file": "slides/aula-02/005.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "86bcb105dc4f8f2fd898402f3d18e32aa21e8fbfb3a41d589b0a2ecbd133627a",
+     "size": 35926
+    },
+    {
+     "file": "slides/aula-02/006.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "3ce19460bdfc298297e62686cb682f98078af65dd40f698e45628cce3c51c061",
+     "size": 25673
+    },
+    {
+     "file": "slides/aula-02/007.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "bd2a30b84604fd08a20fc768afdce20166726bef4121b9b14842e3d06e9382e1",
+     "size": 39820
+    },
+    {
+     "file": "slides/aula-02/008.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "d2fecdbba2d492543cd0d84d78e6e1dfc17fce25bf85a2f7c98b3b829a24dd09",
+     "size": 45871
+    },
+    {
+     "file": "slides/aula-02/009.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "5ee9ee36f6ec223e085877344d099ffefd5939473a88fe642eae735f1bdc5901",
+     "size": 33148
+    },
+    {
+     "file": "slides/aula-02/010.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "e5258a8747f9c3f7e0ba25b2a1402277902d0998e3c110ef5182c24f97a0fc1e",
+     "size": 35377
+    },
+    {
+     "file": "slides/aula-02/011.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "3966a9cfacdd81f2de93ee9cec6ad8a64ac067185bae8931309f6158f1c140f8",
+     "size": 39865
+    },
+    {
+     "file": "slides/aula-02/015.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "4470df2dbb24fcfafaa7af8e2c030ab3a5eb46c8f6dc04eaa1cd189026319738",
+     "size": 31945
+    }
+   ]
+  },
+  {
+   "id": "aula-03",
+   "title": {
+    "pt": "Aula 3"
+   },
+   "kind": "slides",
+   "minutes": 128,
+   "slides": [
+    {
+     "file": "slides/aula-03/001.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "a3b5ed8dc901f1dfa744dc2c257eec0dd666a4e201650db9dba5625ef519bd9d",
+     "size": 32228
+    },
+    {
+     "file": "slides/aula-03/002.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "35b8d67d70463cadf38debadee3558881ba435e3f79c6492fea76d22169001ef",
+     "size": 56984
+    },
+    {
+     "file": "slides/aula-03/003.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "2131aaef39d87f0662ac35a27b6e8734bc82a9011c51f7ded4769300f6d9e47c",
+     "size": 35886
+    },
+    {
+     "file": "slides/aula-03/004.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "71fd6bfb6bee9a8609f6d15c647659b46a3235e8034a0f7a61cd3543197f2f4f",
+     "size": 48098
+    },
+    {
+     "file": "slides/aula-03/005.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "849c7b4665f666228ab491410f43c30c338efeb2d45cbb804a5960a73829a168",
+     "size": 38120
+    },
+    {
+     "file": "slides/aula-03/006.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "71adb0f58a0f2cd288d1ccb361de6a9b4433f599279e4b701d5009f7a41e8af1",
+     "size": 33904
+    },
+    {
+     "file": "slides/aula-03/007.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "e6c37e5ec49959e76dc25b72304218aaea3ec84de3352a8e6651f17238edd1cd",
+     "size": 39184
+    },
+    {
+     "file": "slides/aula-03/008.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "b8a145d614514aab28e909a434a13924fa450ca7c1d9fe70d7b114202c22d80a",
+     "size": 39289
+    },
+    {
+     "file": "slides/aula-03/009.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "93986995872ad5981faa4e61272f64cea2bfb4b3b7814f091bf5d4bc6ca6b003",
+     "size": 32124
+    },
+    {
+     "file": "slides/aula-03/010.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "348e735aec046665d06cb9275e05dea0d4bc4832d2108cef5c353f323e67d378",
+     "size": 41350
+    },
+    {
+     "file": "slides/aula-03/011.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "901d8bf2b6573f2a99c3b6f59391c6ddeb21a78eb228463a3a08d36831d16722",
+     "size": 34032
+    },
+    {
+     "file": "slides/aula-03/012.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "a17a010f5eaff9cf269f09214a03ef0623f17c42e44a7f232c60bd66c55706d5",
+     "size": 35889
+    },
+    {
+     "file": "slides/aula-03/013.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "7c9fec231f82996b88b215758ae77fc2878249c1e1211d14f3ae0721aa3341e0",
+     "size": 45835
+    },
+    {
+     "file": "slides/aula-03/017.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "a913ee56f239bc198be51eaac0247ffbde520a45f6462bf0dc67d86f8b311e5b",
+     "size": 34970
+    }
+   ]
+  },
+  {
+   "id": "aula-04",
+   "title": {
+    "pt": "Aula 4"
+   },
+   "kind": "slides",
+   "minutes": 128,
+   "slides": [
+    {
+     "file": "slides/aula-04/001.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "083f75931c7bf4d1346736e1b537d9d30c82c82348973dfb218e3b123b5f3d78",
+     "size": 37626
+    },
+    {
+     "file": "slides/aula-04/002.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "aa38be126b5bd37136e6c4472801d8bd143cdb04fe00a531028722e5260d109f",
+     "size": 40163
+    },
+    {
+     "file": "slides/aula-04/003.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "660b041438afcfacdefe1707568834cebb04da75ed51ea279eb209c261978bee",
+     "size": 36199
+    },
+    {
+     "file": "slides/aula-04/004.jpg",
+     "w": 1280,
+     "h": 720,
+     "sha256": "7825c292d5dc349cfb3d2a82b9529e0cb09990c5b1d8e9e72f89e9428969ff25",
+     "size": 114819
+    },
+    {
+     "file": "slides/aula-04/005.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "6b61348ba745fe3d2a461056dee9be7d5f720c607bf818eaafd02fbbf10063c6",
+     "size": 39876
+    },
+    {
+     "file": "slides/aula-04/006.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "4c052f5888e1e6d119de9fc1b978ba195d495fffec64a81de1eec9e40b5b7e3f",
+     "size": 38194
+    },
+    {
+     "file": "slides/aula-04/007.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "1fa6e4e7664e4663ac0e02d66073f96e31aaf06b2713ca6a6109e26786c53901",
+     "size": 36541
+    },
+    {
+     "file": "slides/aula-04/008.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "57ec0189990bcae8bdfca2ae885404a7fbe45145f0e85f95d5d38d2440efeeb0",
+     "size": 35911
+    },
+    {
+     "file": "slides/aula-04/009.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "3305a27de5ccec0cecfbb88a8bb05b4c17f7a95630176b0da236553bdd8dfb10",
+     "size": 39186
+    },
+    {
+     "file": "slides/aula-04/010.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "b871a2b28f522d87e3e8d2aeeca7e0a81ab8024a1cc2702b424acd0e2cc10e5b",
+     "size": 38041
+    },
+    {
+     "file": "slides/aula-04/011.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "816b6651ffe24f176a45da4c1f1d10b0abd67cd4d215344ff6ac49020075e82f",
+     "size": 36168
+    },
+    {
+     "file": "slides/aula-04/012.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "547c9a656fbc6e1880f735a1ce372fab2676c5decf480a6d48d4134b0921b4e6",
+     "size": 33187
+    },
+    {
+     "file": "slides/aula-04/013.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "9561c832febcbbc36ac016a7aaff9f453df5fa4f26d8eb869fe604b0f17b92a0",
+     "size": 39537
+    },
+    {
+     "file": "slides/aula-04/017.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "c91a540f4428ad8616f9fdba6eb8564e46e8fafe217b7d16533606987e7b5941",
+     "size": 35909
+    }
+   ]
+  },
+  {
+   "id": "aula-05",
+   "title": {
+    "pt": "Aula 5"
+   },
+   "kind": "slides",
+   "minutes": 128,
+   "slides": [
+    {
+     "file": "slides/aula-05/001.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "b40fadc5096920ba3c003eb44cb4d038d595b2ee6452730cae0348d7574e5b3a",
+     "size": 57170
+    },
+    {
+     "file": "slides/aula-05/002.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "0b8a0135b495346997ad6b9782001df1115c38a4c1e35fb5a78a2a3524f7b5f9",
+     "size": 55594
+    },
+    {
+     "file": "slides/aula-05/003.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "935eda2f02bcbb47705a431f2d656e0a384a89435540a8a066fbbf521e54d7a6",
+     "size": 36241
+    },
+    {
+     "file": "slides/aula-05/004.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "5cbd03d863854e3cad466d988e62f4bb9930408737f74409ddf71b9da74bbd11",
+     "size": 36303
+    },
+    {
+     "file": "slides/aula-05/005.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "eb56a59ee5d58d2a18b1188085b3612f10fbff6a905ce0ad21b8d0abc56c7ba9",
+     "size": 34619
+    },
+    {
+     "file": "slides/aula-05/006.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "b383c409d320c46bcbecd6115dadbe34b1daec2c6c94f247705e54631e8b8cd3",
+     "size": 34621
+    },
+    {
+     "file": "slides/aula-05/007.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "e78d6bab555213f1c2f3a40e37c595baa5a4cdeeb3d936882c74bfd0bd8cc71a",
+     "size": 39836
+    },
+    {
+     "file": "slides/aula-05/008.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "d0e9d8a0e596c6dec2b791dcb2726e2cbb15e6ec009af6be38a3fe425cc6d2c7",
+     "size": 42841
+    },
+    {
+     "file": "slides/aula-05/009.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "a0b10958d6f3b236db24c31479297860d63f6bf7d84c96d14d19da52e3aa268e",
+     "size": 40571
+    },
+    {
+     "file": "slides/aula-05/010.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "ab3d36c18c3e7bdfbfc718cc8aca11cfe5f0a3d6bf151e6d5c66fb1c085852ba",
+     "size": 34601
+    },
+    {
+     "file": "slides/aula-05/011.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "450f1d05683c178e64c1dd3f05dccccd121d122425b887466d44845a15eda2cd",
+     "size": 34911
+    },
+    {
+     "file": "slides/aula-05/012.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "f0df9702129074bba974f8a211687528e7efb41b6aeca37a5628082148c743d1",
+     "size": 35972
+    },
+    {
+     "file": "slides/aula-05/013.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "042d166ad1662d7a2e2f95207e31d80400c30e38a3c083782c5c1d7a8dd578bd",
+     "size": 42923
+    },
+    {
+     "file": "slides/aula-05/017.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "204fb493f339507bfb4f468d054fff38674b49c170f5a0ba43f02876b9f5df6e",
+     "size": 37848
+    }
+   ]
+  },
+  {
+   "id": "aula-06",
+   "title": {
+    "pt": "Aula 6"
+   },
+   "kind": "slides",
+   "minutes": 128,
+   "slides": [
+    {
+     "file": "slides/aula-06/001.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "70f453e710e67ab22f7c2c764e7042dd2e53dc4610db66888a8239e273e3cf9c",
+     "size": 27833
+    },
+    {
+     "file": "slides/aula-06/002.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "35307e7599364257bb2d6132ae84de7117c0bdcdd8c80379794fe5801e16eb5b",
+     "size": 39855
+    },
+    {
+     "file": "slides/aula-06/003.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "49ced1509ad344be4678cb15442f71703feed07df2ed0d9a10d085c1f9d0a6fd",
+     "size": 43971
+    },
+    {
+     "file": "slides/aula-06/004.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "2653a3f3995a62ad5d1b5094fcac90a082e569c77300a0ef8d360870783d33a3",
+     "size": 41755
+    },
+    {
+     "file": "slides/aula-06/005.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "b4b934ad87b385a55f53e6d442c6ad568fa55a20fce093f1bccd831d34b0f95b",
+     "size": 53246
+    },
+    {
+     "file": "slides/aula-06/006.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "a21f5da4993802f58d2a2260b6327d1654b3ab19cb3ce2cf384e33d5e46fda30",
+     "size": 43602
+    },
+    {
+     "file": "slides/aula-06/007.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "ca4847c3eef6dc29be12abcb3e77676b7ddbee847bc39a5ce17378b663bb7ef0",
+     "size": 32468
+    },
+    {
+     "file": "slides/aula-06/008.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "6ec44af2492f92c8af11a69db7be3a7957e401e1f7d87a26a491979f2b443c24",
+     "size": 36756
+    },
+    {
+     "file": "slides/aula-06/009.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "926b561080bd355579d55a39d97520680bdead32e5f89396501359b9da389c83",
+     "size": 43521
+    },
+    {
+     "file": "slides/aula-06/010.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "4736d07307333c72def5fa23c3c12e0301a89aec3514469f18220cdcee0a0df2",
+     "size": 35351
+    },
+    {
+     "file": "slides/aula-06/011.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "c9cb61b148b8923d21d1a619112706543371ea950e42274a08135d79e509cfdc",
+     "size": 40562
+    },
+    {
+     "file": "slides/aula-06/012.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "c4d8cfab78e6215973fc706666b6121c6db6bb38a8224514bc0187aeea76f1c6",
+     "size": 39142
+    },
+    {
+     "file": "slides/aula-06/013.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "1c3752197483ec90d4f0ac2e1a843c9c6297c937edaca0fd48f02b112bc50231",
+     "size": 46933
+    },
+    {
+     "file": "slides/aula-06/017.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "789a1a508e770829839d2f61347d53bcda37f0fcab80cbb0e8d7308942e3e9ba",
+     "size": 34603
+    }
+   ]
+  },
+  {
+   "id": "aula-07",
+   "title": {
+    "pt": "Aula 7"
+   },
+   "kind": "slides",
+   "minutes": 128,
+   "slides": [
+    {
+     "file": "slides/aula-07/001.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "21b152f3a51905c2b37bd0ab538f7b331f72584fe31632e02c02095a9dfc9a26",
+     "size": 28162
+    },
+    {
+     "file": "slides/aula-07/002.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "0d8461a095e64c3085532aff3edf64d10beb92a9ca9ae4c61961c9922efe3b9b",
+     "size": 57315
+    },
+    {
+     "file": "slides/aula-07/003.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "9367a3c3cdfff661fa29446a2236a17c1d5946aa8c1f0e10b966f146b299e440",
+     "size": 35885
+    },
+    {
+     "file": "slides/aula-07/004.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "43a2f72f7280981c53babf2f6058f87faf05db6f41f5d0de64fac81e1f36edd8",
+     "size": 34800
+    },
+    {
+     "file": "slides/aula-07/005.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "20aaeaab336e380aaf4783de0a91c5ffa670750664674ce94fd816ddb33ca2db",
+     "size": 32097
+    },
+    {
+     "file": "slides/aula-07/006.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "f02e4ddf205d7ed85109baeeb9bf211278e122e8deffb2743eec2e0bcb03b3a8",
+     "size": 28080
+    },
+    {
+     "file": "slides/aula-07/007.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "88f966a97d2a40c50a091a58950d425160eaa7f7e274ef68391a08d79d2d626e",
+     "size": 33805
+    },
+    {
+     "file": "slides/aula-07/008.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "14eeac271df9dcaa227a89fe161dd53ec3db5a615afbcbc1889b013e1dd94037",
+     "size": 35276
+    },
+    {
+     "file": "slides/aula-07/009.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "9aa729ea9c8734b33fb803e531c5fb50d0642d6b5ca6522b858e1ab40b6f055b",
+     "size": 31211
+    },
+    {
+     "file": "slides/aula-07/010.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "e6a24e3a0fb3175534b3feb47539ac4f7f368219974c77fd6957bf9b3bd591a6",
+     "size": 31858
+    },
+    {
+     "file": "slides/aula-07/011.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "da5a7f8a9bb404b0a2f46d133389d8ac06bc1fd392e495837a355a476c0653a6",
+     "size": 54744
+    },
+    {
+     "file": "slides/aula-07/012.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "7c760ffb55b7c6d96db2384c2b4dc81a5542e0028102ec55a9fd53b510b3a98e",
+     "size": 50961
+    },
+    {
+     "file": "slides/aula-07/013.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "0c553221a8416f62172b5af46279c9e7c495e695d7ce93cf9b803ec9000eff0d",
+     "size": 33334
+    },
+    {
+     "file": "slides/aula-07/014.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "19cc51a24f854ea3ff3328a7e94c7c1ff27b1c8c5b46c6726ea9532d33d82b30",
+     "size": 36854
+    },
+    {
+     "file": "slides/aula-07/015.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "2837f0e6ff9344e5e235b38002b7dbab72f00241735af4c2d618e793de9b369e",
+     "size": 38086
+    },
+    {
+     "file": "slides/aula-07/019.png",
+     "w": 1280,
+     "h": 720,
+     "sha256": "6574b3a505224ff5b703200202279f4e895f51b71432261d51bec9d8dd442a50",
+     "size": 31954
+    }
+   ]
+  }
+ ],
+ "assessment": {
+  "type": "exam",
+  "pass_pct": 70,
+  "min_watch_pct": 90,
+  "questions": [
+   {
+    "id": "q01",
+    "prompt": {
+     "pt": "Qual componente executa as instruções dos programas?\n"
+    },
+    "choices": [
+     {
+      "id": "a",
+      "text": {
+       "pt": "Memória RAM"
+      }
+     },
+     {
+      "id": "b",
+      "text": {
+       "pt": "CPU"
+      }
+     },
+     {
+      "id": "c",
+      "text": {
+       "pt": "SSD"
+      }
+     },
+     {
+      "id": "d",
+      "text": {
+       "pt": "Fonte de alimentação"
+      }
+     }
+    ],
+    "correct": "b",
+    "explanation": {
+     "pt": "A CPU busca, decodifica e executa instruções. A RAM e o SSD só guardam dados."
+    }
+   },
+   {
+    "id": "q02",
+    "prompt": {
+     "pt": "Em qual camada fica um driver?\n"
+    },
+    "choices": [
+     {
+      "id": "a",
+      "text": {
+       "pt": "Entre o aplicativo e o usuário"
+      }
+     },
+     {
+      "id": "b",
+      "text": {
+       "pt": "Entre o sistema operacional e o hardware"
+      }
+     },
+     {
+      "id": "c",
+      "text": {
+       "pt": "Dentro do monitor"
+      }
+     },
+     {
+      "id": "d",
+      "text": {
+       "pt": "Acima dos aplicativos"
+      }
+     }
+    ],
+    "correct": "b",
+    "explanation": {
+     "pt": "O driver traduz os pedidos do sistema operacional para a linguagem de cada peça."
+    }
+   },
+   {
+    "id": "q03",
+    "prompt": {
+     "pt": "No modelo de von Neumann, programas e dados ficam:\n"
+    },
+    "choices": [
+     {
+      "id": "a",
+      "text": {
+       "pt": "Em memórias separadas"
+      }
+     },
+     {
+      "id": "b",
+      "text": {
+       "pt": "Na mesma memória"
+      }
+     },
+     {
+      "id": "c",
+      "text": {
+       "pt": "Somente no disco"
+      }
+     },
+     {
+      "id": "d",
+      "text": {
+       "pt": "Na placa de vídeo"
+      }
+     }
+    ],
+    "correct": "b",
+    "explanation": {
+     "pt": "Guardar programa e dados na mesma memória é a ideia central do modelo."
+    }
+   },
+   {
+    "id": "q04",
+    "prompt": {
+     "pt": "Qual é a ordem do ciclo de instrução?"
+    },
+    "choices": [
+     {
+      "id": "a",
+      "text": {
+       "pt": "Executar, buscar, decodificar"
+      }
+     },
+     {
+      "id": "b",
+      "text": {
+       "pt": "Decodificar, executar, buscar"
+      }
+     },
+     {
+      "id": "c",
+      "text": {
+       "pt": "Buscar, decodificar, executar"
+      }
+     },
+     {
+      "id": "d",
+      "text": {
+       "pt": "Buscar, executar, decodificar"
+      }
+     }
+    ],
+    "correct": "c",
+    "explanation": {
+     "pt": "Buscar, decodificar e executar, repetido bilhões de vezes por segundo."
+    }
+   },
+   {
+    "id": "q05",
+    "prompt": {
+     "pt": "Quanto vale o binário 1101 em decimal?"
+    },
+    "choices": [
+     {
+      "id": "a",
+      "text": {
+       "pt": "11"
+      }
+     },
+     {
+      "id": "b",
+      "text": {
+       "pt": "13"
+      }
+     },
+     {
+      "id": "c",
+      "text": {
+       "pt": "15"
+      }
+     },
+     {
+      "id": "d",
+      "text": {
+       "pt": "9"
+      }
+     }
+    ],
+    "correct": "b",
+    "explanation": {
+     "pt": "Pesos 8, 4, 2, 1: 8 + 4 + 0 + 1 = 13."
+    }
+   },
+   {
+    "id": "q06",
+    "prompt": {
+     "pt": "Quantas combinações diferentes cabem em 1 byte?"
+    },
+    "choices": [
+     {
+      "id": "a",
+      "text": {
+       "pt": "8"
+      }
+     },
+     {
+      "id": "b",
+      "text": {
+       "pt": "128"
+      }
+     },
+     {
+      "id": "c",
+      "text": {
+       "pt": "256"
+      }
+     },
+     {
+      "id": "d",
+      "text": {
+       "pt": "1024"
+      }
+     }
+    ],
+    "correct": "c",
+    "explanation": {
+     "pt": "8 bits geram 2⁸ = 256 combinações, de 0 a 255."
+    }
+   },
+   {
+    "id": "q07",
+    "prompt": {
+     "pt": "Qual é o hexadecimal de 1111 1111?"
+    },
+    "choices": [
+     {
+      "id": "a",
+      "text": {
+       "pt": "FF"
+      }
+     },
+     {
+      "id": "b",
+      "text": {
+       "pt": "EE"
+      }
+     },
+     {
+      "id": "c",
+      "text": {
+       "pt": "99"
+      }
+     },
+     {
+      "id": "d",
+      "text": {
+       "pt": "F0"
+      }
+     }
+    ],
+    "correct": "a",
+    "explanation": {
+     "pt": "1111 = 15 = F, nos dois grupos de 4 bits. FF = 255"
+    }
+   },
+   {
+    "id": "q08",
+    "prompt": {
+     "pt": "Um SSD de 500 GB aparece com cerca de 465 GB no Windows. Por quê?"
+    },
+    "choices": [
+     {
+      "id": "a",
+      "text": {
+       "pt": "O SSD está com defeito"
+      }
+     },
+     {
+      "id": "b",
+      "text": {
+       "pt": "Um vírus ocupou o espaço"
+      }
+     },
+     {
+      "id": "c",
+      "text": {
+       "pt": "Base 10 do fabricante × base 2 do sistema"
+      }
+     },
+     {
+      "id": "d",
+      "text": {
+       "pt": "Arquivos ocultos de fábrica"
+      }
+     }
+    ],
+    "correct": "c",
+    "explanation": {
+     "pt": "500 bilhões de bytes ÷ 1.024³ ≈ 465,7. O espaço está todo lá."
+    }
+   },
+   {
+    "id": "q09",
+    "prompt": {
+     "pt": "Qual memória perde os dados quando o PC é desligado?"
+    },
+    "choices": [
+     {
+      "id": "a",
+      "text": {
+       "pt": "SSD"
+      }
+     },
+     {
+      "id": "b",
+      "text": {
+       "pt": "RAM"
+      }
+     },
+     {
+      "id": "c",
+      "text": {
+       "pt": "HD"
+      }
+     },
+     {
+      "id": "d",
+      "text": {
+       "pt": "Chip do UEFI"
+      }
+     }
+    ],
+    "correct": "b",
+    "explanation": {
+     "pt": "A RAM é volátil: precisa de energia para manter os dados."
+    }
+   },
+   {
+    "id": "q10",
+    "prompt": {
+     "pt": "Qual destas opções costuma ser a mais rápida?"
+    },
+    "choices": [
+     {
+      "id": "a",
+      "text": {
+       "pt": "HD SATA"
+      }
+     },
+     {
+      "id": "b",
+      "text": {
+       "pt": "SSD SATA"
+      }
+     },
+     {
+      "id": "c",
+      "text": {
+       "pt": "SSD NVMe PCIe 4.0"
+      }
+     },
+     {
+      "id": "d",
+      "text": {
+       "pt": "Pendrive USB 2.0"
+      }
+     }
+    ],
+    "correct": "c",
+    "explanation": {
+     "pt": "Chega a ~7.000 MB/s, contra ~550 MB/s do SSD SATA."
+    }
+   },
+   {
+    "id": "q11",
+    "prompt": {
+     "pt": "Em qual componente fica o soquete do processador?"
+    },
+    "choices": [
+     {
+      "id": "a",
+      "text": {
+       "pt": "Fonte"
+      }
+     },
+     {
+      "id": "b",
+      "text": {
+       "pt": "Placa-mãe"
+      }
+     },
+     {
+      "id": "c",
+      "text": {
+       "pt": "Gabinete"
+      }
+     },
+     {
+      "id": "d",
+      "text": {
+       "pt": "Placa de vídeo"
+      }
+     }
+    ],
+    "correct": "b",
+    "explanation": {
+     "pt": "O soquete faz parte da placa e define as CPUs compatíveis.\n"
+    }
+   },
+   {
+    "id": "q12",
+    "prompt": {
+     "pt": "O selo 80 PLUS de uma fonte indica:"
+    },
+    "choices": [
+     {
+      "id": "a",
+      "text": {
+       "pt": "A potência máxima"
+      }
+     },
+     {
+      "id": "b",
+      "text": {
+       "pt": "A eficiência energética"
+      }
+     },
+     {
+      "id": "c",
+      "text": {
+       "pt": "O número de conectores"
+      }
+     },
+     {
+      "id": "d",
+      "text": {
+       "pt": "A velocidade do ventilador"
+      }
+     }
+    ],
+    "correct": "b",
+    "explanation": {
+     "pt": "Mostra quanta energia a fonte converte sem virar calor.\n"
+    }
+   }
+  ]
+ }
+}
